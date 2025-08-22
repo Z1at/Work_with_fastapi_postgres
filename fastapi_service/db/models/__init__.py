@@ -1,4 +1,4 @@
-from human import HumanStorage
+from .human import HumanStorage
 
 
 __all__ = [

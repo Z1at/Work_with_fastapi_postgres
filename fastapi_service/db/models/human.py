@@ -9,7 +9,7 @@ class HumanStorage(DeclarativeBase):
     __tablename__ = "human_storage"
 
     id = Column(
-        UUID(as_uuid=True),
+        INTEGER,
         primary_key=True,
         server_default=func.gen_random_uuid(),
         unique=True,
